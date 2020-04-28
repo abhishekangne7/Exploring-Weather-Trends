@@ -1,0 +1,21 @@
+For city_data
+
+SELECT * FROM city_data
+WHERE city = 'Dublin';
+
+SELECT * FROM city_data
+WHERE city = 'New York’';
+
+For global_data
+
+SELECT * FROM global_data;
+
+For city_list
+
+SELECT * FROM city_list
+WHERE country = 'Ireland'
+AND city = 'Dublin'
+
+SELECT * FROM city_list
+WHERE country = 'United States'
+AND city = 'New York'
